@@ -2,7 +2,7 @@
   parent: ClothingNeckBase
   id: ClothingNeckCloakNewPoly
   name: New Poly cloak
-  description: A regal blue durathread boat cloak with a red felt lining and gold trim. Somehow, it's even more expensive than it looks.
+  description: A cloak for those who have more than one partner
   components:
   - type: Sprite
     sprite: _LIM/Clothing/Neck/Cloaks/new-poly.rsi
@@ -12,9 +12,79 @@
   parent: ClothingNeckBase
   id: ClothingNeckCloakOldPoly
   name: Old Poly cloak
-  description: A regal blue durathread boat cloak with a red felt lining and gold trim. Somehow, it's even more expensive than it looks.
+  description: A cloak for those who have more than one partner
   components:
   - type: Sprite
     sprite: _LIM/Clothing/Neck/Cloaks/old-poly.rsi
   - type: Clothing
     sprite: _LIM/Clothing/Neck/Cloaks/old-poly.rsi
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakAgender
+  name: Agender Cloak
+  description: A cloak for those who lack a gender
+  components:
+  - type: Sprite
+    sprite: _LIM/Clothing/Neck/Cloaks/agender.rsi
+  - type: Clothing
+    sprite: _LIM/Clothing/Neck/Cloaks/agender.rsi
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakOmni
+  name: Omnisexual Cloak
+  description: A cloak for those who are attracted to people of all genders and sexualities
+  components:
+  - type: Sprite
+    sprite: _LIM/Clothing/Neck/Cloaks/omni.rsi
+  - type: Clothing
+    sprite: _LIM/Clothing/Neck/Cloaks/omni.rsi
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakBigender
+  name: Bigender Cloak
+  description: A cloak for a gender identity in which people experience exactly two gender identities, either simultaneously or varying between the two.
+  components:
+  - type: Sprite
+    sprite: _LIM/Clothing/Neck/Cloaks/bigender.rsi
+  - type: Clothing
+    sprite: _LIM/Clothing/Neck/Cloaks/bigender.rsi
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakDemigirl
+  name: Demigirl Cloak
+  description: A cloak for a person who partially identifies as feminine, but is not fully binary
+  components:
+  - type: Sprite
+    sprite: _LIM/Clothing/Neck/Cloaks/demi-girl.rsi
+  - type: Clothing
+    sprite: _LIM/Clothing/Neck/Cloaks/demi-girl.rsi
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakDemiboy
+  name: Demiboy Cloak
+  description: A cloak for a person who partially identifies with masculinity, but is not fully male
+  components:
+  - type: Sprite
+    sprite: _LIM/Clothing/Neck/Cloaks/demi-boy.rsi
+  - type: Clothing
+    sprite: _LIM/Clothing/Neck/Cloaks/demi-boy.rsi
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakDemigender
+  name: Demigender Cloak
+  description: A cloak for a non-binary gender identity that describes people who partially identify with a gender
+  components:
+  - type: Sprite
+    sprite: _LIM/Clothing/Neck/Cloaks/demi-gender.rsi
+  - type: Clothing
+    sprite: _LIM/Clothing/Neck/Cloaks/demi-gender.rsi
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakGenderfluid
+  name: Genderfluid Cloak
+  description: A cloak for a non-binary gender identity that describes someone whose gender is not fixed.
+  components:
+  - type: Sprite
+    sprite: _LIM/Clothing/Neck/Cloaks/genderfluid.rsi
+  - type: Clothing
+    sprite: _LIM/Clothing/Neck/Cloaks/genderfluid.rsi

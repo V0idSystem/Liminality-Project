@@ -1,0 +1,20 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakNewPoly
+  name: New Poly cloak
+  description: A regal blue durathread boat cloak with a red felt lining and gold trim. Somehow, it's even more expensive than it looks.
+  components:
+  - type: Sprite
+    sprite: _LIM/Clothing/Neck/Cloaks/new-poly.rsi
+  - type: Clothing
+    sprite: _LIM/Clothing/Neck/Cloaks/new-poly.rsi
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakOldPoly
+  name: Old Poly cloak
+  description: A regal blue durathread boat cloak with a red felt lining and gold trim. Somehow, it's even more expensive than it looks.
+  components:
+  - type: Sprite
+    sprite: _LIM/Clothing/Neck/Cloaks/old-poly.rsi
+  - type: Clothing
+    sprite: _LIM/Clothing/Neck/Cloaks/old-poly.rsi
